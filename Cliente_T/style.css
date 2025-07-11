@@ -1,0 +1,118 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+
+  text-align: center;
+  color: red;
+  font-family: monospace;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+
+header div{
+  border: lightgray inset 8px;
+  background-color: black;
+}
+
+header img{
+width: 25%;
+
+}
+
+/* Formulario */
+form {
+  border: lightgray inset 8px;
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+}
+
+button {
+  padding: 10px;
+  background-color: darkred;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: red;
+}
+
+/* Lista de jugadores */
+section {
+  margin-top: 40px;
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+}
+
+li {
+  background-image: url(img/bgm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #ef4444;
+}
+
+li button:first-of-type {
+  background-color: blue;
+}
+
+li button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 500px) {
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+ul{
+  margin-bottom: 100px;
+}

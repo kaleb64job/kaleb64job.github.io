@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de Jugadores</title>
+   <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body onload="Show()">
+
+
+ <header>
+      <div align="center">
+        <img src="img/cad.gif"><img src="img/cad.gif"><img src="img/cad.gif"><img src="img/cad.gif">
+        <h1>Gestión de Jugadores</h1> 
+        <img src="img/cad.gif"><img src="img/cad.gif"><img src="img/cad.gif"><img src="img/cad.gif">
+      </div>
+    </header>
+
+  <!-- Formulario para insertar o editar -->
+  <form id="formJugador">
+    <input type="hidden" id="id">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="number" id="edad" placeholder="Edad" required>
+    <input type="text" id="usuario" placeholder="Nombre de usuario" required>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <section><img src="img/listaF.gif" width="300" height="150"></section>
+  <ul id="lista"></ul>
+
+</body>
+</html>
